@@ -44,7 +44,7 @@ describe("Product component", () => {
       "images/products/athletic-cotton-socks-6-pairs.jpg"
     );
 
-    expect(screen.getByTestId("product-rating-stars-image")).toHaveAttribute(
+    expect(screen.getByTestId("product-rating-stars")).toHaveAttribute(
       "src",
       "images/ratings/rating-45.png"
     );
